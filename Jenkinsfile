@@ -13,6 +13,6 @@ pipeline {
 		stage('Deployment'){
 		    steps {
 			
-			sh 'cp target/zoom.war /home/shreena/Documents/GRRAS/apache-tomcat-9.0.71/webapps'
+			sh 'cp target/hp.war /home/shreena/Documents/GRRAS/apache-tomcat-9.0.71/webapps'
 	}
 }}}
